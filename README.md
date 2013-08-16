@@ -30,8 +30,8 @@ First, include the following Apache Mod Rewrite code in your .htaccess file.
 This will make it possible to reference asset files with cache-busting junk
 shoved in the middle. For example, you can then reference `script.js` as
 `script.8c9fcf8364b72ec65c233629375c241763bf245b.js`. This section is slightly
-modified from [HTML5 Boilerplate's .htaccess](https://github.com/h5bp/html5-bo
-ilerplate/blob/master/.htaccess#L511) file.
+modified from [HTML5 Boilerplate's .htaccess](https://github.com/h5bp/html5-boilerplate/blob/master/.htaccess#L511)
+file.
 
 ```
 <IfModule mod_rewrite.c>
