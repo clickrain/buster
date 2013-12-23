@@ -44,12 +44,14 @@ Then, replace
 
 ```
 <link rel="stylesheet" href="/assets/css/style.css">
+<script src="/assets/js/script.js"></script>
 ```
 
 with
 
 ```
 <link rel="stylesheet" href="{exp:buster href='/assets/css/style.css'}">
+<script src="{exp:buster src='/assets/js/script.js'}"></script>
 ```
 
 ## Parameters
