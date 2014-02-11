@@ -85,4 +85,4 @@ In an effort to keep this plugin simple, there is no control panel interface
 for this functionality. It must be done in a config file.
 
 [1]: http://images2.wikia.nocookie.net/__cb20111027201442/arresteddevelopment/images/thumb/5/5d/Buster.jpg/360px-Buster.jpg
-[2]: https://github.com/h5bp/html5-boilerplate/blob/master/.htaccess#L511
+[2]: https://github.com/h5bp/html5-boilerplate/blob/f73bb1f614d44967db61733b36f2e6244f589d15/.htaccess#L632
