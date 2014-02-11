@@ -2,7 +2,7 @@
 
 $plugin_info = array(
 	'pi_name'        => 'Buster',
-	'pi_version'     => '0.1.0',
+	'pi_version'     => '1.0.0',
 	'pi_author'      => 'Click Rain',
 	'pi_author_url'  => 'http://clickrain.com/',
 	'pi_description' => 'Buster - Bust up some caches',
