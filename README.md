@@ -2,7 +2,7 @@
 
 Cache bust asset files by including a hash of the file within the file name.
 
-![Buster](http://images2.wikia.nocookie.net/__cb20111027201442/arresteddevelopment/images/thumb/5/5d/Buster.jpg/360px-Buster.jpg)
+![Buster][1]
 
 ## A note about support
 
@@ -30,8 +30,7 @@ First, include the following Apache Mod Rewrite code in your .htaccess file.
 This will make it possible to reference asset files with cache-busting junk
 shoved in the middle. For example, you can then reference `script.js` as
 `script.8c9fcf8364b72ec65c233629375c241763bf245b.js`. This section is slightly
-modified from [HTML5 Boilerplate's .htaccess](https://github.com/h5bp/html5-boilerplate/blob/master/.htaccess#L511)
-file.
+modified from [HTML5 Boilerplate's .htaccess][2] file.
 
 ```
 <IfModule mod_rewrite.c>
@@ -69,3 +68,21 @@ the `href` will be used.
   paths allowed.
 * Error checking is at a minimum.
 * This is worthless unless the .htaccess is correct.
+
+## Config variables
+
+### buster_enabled
+
+Buster comes enabled by default. However, for development or debugging
+reasons, it is possible to turn the plugin off by setting buster_enabled to
+false in your config file.
+
+```
+$config['buster_enabled'] = FALSE; # or "no", "n", "false", "disabled"
+```
+
+In an effort to keep this plugin simple, there is no control panel interface
+for this functionality. It must be done in a config file.
+
+[1]: http://images2.wikia.nocookie.net/__cb20111027201442/arresteddevelopment/images/thumb/5/5d/Buster.jpg/360px-Buster.jpg
+[2]: https://github.com/h5bp/html5-boilerplate/blob/master/.htaccess#L511
